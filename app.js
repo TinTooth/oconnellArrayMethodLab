@@ -164,9 +164,9 @@ function problemTwo(){
     return results
 }
 
-// let probTwo = problemTwo();
-// console.log("problem 2");
-// console.log(probTwo);
+let probTwo = problemTwo();
+console.log("problem 2");
+console.log(probTwo);
 
 
 //3. Create a function that will return all dishes with the cuisine type of "Italian" and a serving size greater than 5.
@@ -250,9 +250,9 @@ function problemSeven(){
     return results;
 }
 
-// let probSeven = problemSeven();
-// console.log("problem 7");
-// console.log(probSeven);
+let probSeven = problemSeven();
+console.log("problem 7");
+console.log(probSeven);
 
 
 
@@ -352,6 +352,7 @@ function problemThirteen(){
     let results = dishes.filter(function(dish){return duplicates.includes(dish.cuisine) == false;})
     return results;
 }
+
 
 probThirteen = problemThirteen();
 console.log("problem 13")
